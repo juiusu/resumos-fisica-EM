@@ -1,0 +1,104 @@
+#+TITLE: Resumos das Aulas de Física
+#+AUTHOR: Joilson Silva Porto
+#+DATE: 2025
+#+OPTIONS: toc num:nil
+#+HTML_HEAD: <style>
+#+HTML_HEAD: body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px auto; max-width: 800px; padding: 20px; }
+#+HTML_HEAD: h1, h2, h3 { color: #2c3e50; }
+#+HTML_HEAD: a { color: #3498db; text-decoration: none; }
+#+HTML_HEAD: a:hover { text-decoration: underline; }
+#+HTML_HEAD: table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+#+HTML_HEAD: th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+#+HTML_HEAD: th { background-color: #f4f4f4; }
+#+HTML_HEAD: ul, ol { margin: 10px 0; padding-left: 20px; }
+#+HTML_HEAD: .equation { text-align: center; margin: 20px 0; font-size: 1.2em; }
+#+HTML_HEAD: .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; font-size: 0.9em; color: #777; }
+#+HTML_HEAD: </style>
+
+* Introdução
+Nessa página serão resumidas as aulas de física dos Cursos Técnicos de Nível Médio em Informática, Administração e Agropecuária na Forma Integrada, do IFAM Campus Eirunepé; ministradas no ano de 2025.
+
+O objetivo é construir um material de consulta aos estudantes ao longo do desenvolvimento das disciplinas. 
+
+Sugestões dos alunos serão sempre bem-vindas.
+
+* Pré-física
+** Sugestões sobre como estudar
+Aqui estão algumas técnicas para estudar de forma mais eficiente.
+
+- **Método Feynman**
+Baseia-se no fato de que ensinar é uma das melhores formas de aprender.
+  - [[https://conexao.pucminas.br/blog/dicas/tecnica-feynman/#:~:text=A%20T%C3%A9cnica%20Feynman%20%C3%A9%20um,estivesse%20conversando%20com%20uma%20crian%C3%A7a.][Método Feynman de estudo - Blog PUC Minas]]
+
+- **Repetição Espaçada**
+  - Baseada no conceito da Curva do Esquecimento.
+  - [[https://blog.duolingo.com/pt/repeticao-espacada-no-aprendizado/][Repetição espaçada no aprendizado - Blog Duolingo]]
+
+- **Técnica do Pomodoro**
+  - Nosso cérebro tem um limite de tempo de concentração e precisa de pequenos intervalos de descanso.
+  - [[https://brasilescola.uol.com.br/dicas-de-estudo/tecnica-pomodoro-que-e-e-como-funciona.htm][Técnica Pomodoro - Brasil Escola Uol]]
+
+** Grandezas e Unidades de Medida
+Aqui estão algumas grandezas físicas e suas unidades de medida:
+
+| Grandeza    | Unidade (Nome)       | Unidade (Símbolo) |
+|-------------+----------------------+-------------------|
+| Massa       | Quilograma, Grama    | kg, g             |
+| Volume      | Litro, Mili-litro    | L, mL             |
+| Densidade   | Grama por mili-litro | g/mL              |
+| Comprimento | Metro, Centímetro    | m, cm             |
+| Tempo       | Hora, Segundo        | h, s              |
+
+** Equações
+As equações na física são relações matemáticas entre grandezas. Considere os seguintes dados de uma substância:
+
+| Massa (g) | Volume (mL) | Densidade (g/mL) |
+|-----------+-------------+------------------|
+| 3,0       | 1,0         | 3,0              |
+| 6,0       | 2,0         | 3,0              |
+| -         | 2,5         | 3,0              |
+| 5,0       | -           | 3,0              |
+| 15,0      | 3,0         | -                |
+
+A densidade é calculada dividindo a massa pelo volume. Essa relação pode ser escrita como:
+
+\begin{equation}
+d = \frac{m}{V}
+\end{equation}
+
+Onde:
+- \( m \) = massa
+- \( V \) = volume
+- \( d \) = densidade
+
+Com dois valores conhecidos, podemos calcular o terceiro.
+
+** Gráficos
+Gráficos são ferramentas visuais importantes para representar dados e relações entre grandezas físicas. Eles ajudam a identificar padrões e tendências.
+
+(Conteúdo a ser adicionado.)
+
+* Física I
+** Mecânica
+A mecânica estuda o movimento dos corpos e as forças que atuam sobre eles.
+
+(Conteúdo a ser adicionado.)
+
+** Mecânica dos Fluidos
+A mecânica dos fluidos estuda o comportamento de líquidos e gases em repouso ou em movimento.
+
+(Conteúdo a ser adicionado.)
+
+* Física II
+(Conteúdo a ser adicionado.)
+
+* Física III
+(Conteúdo a ser adicionado.)
+
+* Referências
+- HEWITT, Paul G. *Física Conceitual*. Bookman Editora, 2023.
+- ALVARENGA, Beatriz; MÁXIMO, Antônio. *Física Ensino Médio*. São Paulo: Editora Scipione, 2006.
+
+#+HTML: <div class="footer">
+#+HTML: <p>© 2025 IFAM Campus Eirunepé. Todos os direitos reservados.</p>
+#+HTML: </div>

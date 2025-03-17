@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-03-17 seg 17:49 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Resumos das Aulas de Física</title>
+<meta name="author" content="Joilson Silva Porto" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<style>
+body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px auto; max-width: 800px; padding: 20px; }
+h1, h2, h3 { color: #2c3e50; }
+a { color: #3498db; text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+th { background-color: #f4f4f4; }
+ul, ol { margin: 10px 0; padding-left: 20px; }
+.equation { text-align: center; margin: 20px 0; font-size: 1.2em; }
+.footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; font-size: 0.9em; color: #777; }
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Resumos das Aulas de Física</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orga9bc3a7">1. Introdução</a></li>
+<li><a href="#org34142cc">2. Pré-física</a>
+<ul>
+<li><a href="#org36c13cf">2.1. Sugestões sobre como estudar</a></li>
+<li><a href="#org492dd83">2.2. Grandezas e Unidades de Medida</a></li>
+<li><a href="#org64f96bb">2.3. Equações</a></li>
+<li><a href="#org153166f">2.4. Gráficos</a></li>
+</ul>
+</li>
+<li><a href="#orga579f55">3. Física I</a>
+<ul>
+<li><a href="#org6e8a834">3.1. Mecânica</a></li>
+<li><a href="#orga09e53f">3.2. Mecânica dos Fluidos</a></li>
+</ul>
+</li>
+<li><a href="#org196f9f6">4. Física II</a></li>
+<li><a href="#orgf708bb3">5. Física III</a></li>
+<li><a href="#org6e2832a">6. Referências</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga9bc3a7" class="outline-2">
+<h2 id="orga9bc3a7"><span class="section-number-2">1.</span> Introdução</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Nessa página serão resumidas as aulas de física dos Cursos Técnicos de Nível Médio em Informática, Administração e Agropecuária na Forma Integrada, do IFAM Campus Eirunepé; ministradas no ano de 2025.
+</p>
+
+<p>
+O objetivo é construir um material de consulta aos estudantes ao longo do desenvolvimento das disciplinas. 
+</p>
+
+<p>
+Sugestões dos alunos serão sempre bem-vindas.
+</p>
+</div>
+</div>
+<div id="outline-container-org34142cc" class="outline-2">
+<h2 id="org34142cc"><span class="section-number-2">2.</span> Pré-física</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org36c13cf" class="outline-3">
+<h3 id="org36c13cf"><span class="section-number-3">2.1.</span> Sugestões sobre como estudar</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Aqui estão algumas técnicas para estudar de forma mais eficiente.
+</p>
+
+<ul class="org-ul">
+<li><b><b>Método Feynman</b></b>
+<ul class="org-ul">
+<li>Baseia-se no fato de que ensinar é uma das melhores formas de aprender.</li>
+<li><a href="https://conexao.pucminas.br/blog/dicas/tecnica-feynman/#:~:text=A%20T%C3%A9cnica%20Feynman%20%C3%A9%20um,estivesse%20conversando%20com%20uma%20crian%C3%A7a.">Método Feynman de estudo - Blog PUC Minas</a></li>
+</ul></li>
+
+<li><b><b>Repetição Espaçada</b></b>
+<ul class="org-ul">
+<li>Baseada no conceito da Curva do Esquecimento.</li>
+<li><a href="https://blog.duolingo.com/pt/repeticao-espacada-no-aprendizado/">Repetição espaçada no aprendizado - Blog Duolingo</a></li>
+</ul></li>
+
+<li><b><b>Técnica do Pomodoro</b></b>
+<ul class="org-ul">
+<li>Nosso cérebro tem um limite de tempo de concentração e precisa de pequenos intervalos de descanso.</li>
+<li><a href="https://brasilescola.uol.com.br/dicas-de-estudo/tecnica-pomodoro-que-e-e-como-funciona.htm">Técnica Pomodoro - Brasil Escola Uol</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org492dd83" class="outline-3">
+<h3 id="org492dd83"><span class="section-number-3">2.2.</span> Grandezas e Unidades de Medida</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Aqui estão algumas grandezas físicas e suas unidades de medida:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Grandeza</th>
+<th scope="col" class="org-left">Unidade (Nome)</th>
+<th scope="col" class="org-left">Unidade (Símbolo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Massa</td>
+<td class="org-left">Quilograma, Grama</td>
+<td class="org-left">kg, g</td>
+</tr>
+
+<tr>
+<td class="org-left">Volume</td>
+<td class="org-left">Litro, Mili-litro</td>
+<td class="org-left">L, mL</td>
+</tr>
+
+<tr>
+<td class="org-left">Densidade</td>
+<td class="org-left">Grama por mili-litro</td>
+<td class="org-left">g/mL</td>
+</tr>
+
+<tr>
+<td class="org-left">Comprimento</td>
+<td class="org-left">Metro, Centímetro</td>
+<td class="org-left">m, cm</td>
+</tr>
+
+<tr>
+<td class="org-left">Tempo</td>
+<td class="org-left">Hora, Segundo</td>
+<td class="org-left">h, s</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org64f96bb" class="outline-3">
+<h3 id="org64f96bb"><span class="section-number-3">2.3.</span> Equações</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+As equações na física são relações matemáticas entre grandezas. Considere os seguintes dados de uma substância:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Massa (g)</th>
+<th scope="col" class="org-left">Volume (mL)</th>
+<th scope="col" class="org-left">Densidade (g/mL)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">3,0</td>
+<td class="org-left">1,0</td>
+<td class="org-left">3,0</td>
+</tr>
+
+<tr>
+<td class="org-left">6,0</td>
+<td class="org-left">2,0</td>
+<td class="org-left">3,0</td>
+</tr>
+
+<tr>
+<td class="org-left">-</td>
+<td class="org-left">2,5</td>
+<td class="org-left">3,0</td>
+</tr>
+
+<tr>
+<td class="org-left">5,0</td>
+<td class="org-left">-</td>
+<td class="org-left">3,0</td>
+</tr>
+
+<tr>
+<td class="org-left">15,0</td>
+<td class="org-left">3,0</td>
+<td class="org-left">-</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+A densidade é calculada dividindo a massa pelo volume. Essa relação pode ser escrita como:
+</p>
+
+\begin{equation}
+d = \frac{m}{V}
+\end{equation}
+
+<p>
+Onde:
+</p>
+<ul class="org-ul">
+<li>\( m \) = massa</li>
+<li>\( V \) = volume</li>
+<li>\( d \) = densidade</li>
+</ul>
+
+<p>
+Com dois valores conhecidos, podemos calcular o terceiro.
+</p>
+</div>
+</div>
+<div id="outline-container-org153166f" class="outline-3">
+<h3 id="org153166f"><span class="section-number-3">2.4.</span> Gráficos</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+Gráficos são ferramentas visuais importantes para representar dados e relações entre grandezas físicas. Eles ajudam a identificar padrões e tendências.
+</p>
+
+<p>
+(Conteúdo a ser adicionado.)
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga579f55" class="outline-2">
+<h2 id="orga579f55"><span class="section-number-2">3.</span> Física I</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org6e8a834" class="outline-3">
+<h3 id="org6e8a834"><span class="section-number-3">3.1.</span> Mecânica</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+A mecânica estuda o movimento dos corpos e as forças que atuam sobre eles.
+</p>
+
+<p>
+(Conteúdo a ser adicionado.)
+</p>
+</div>
+</div>
+<div id="outline-container-orga09e53f" class="outline-3">
+<h3 id="orga09e53f"><span class="section-number-3">3.2.</span> Mecânica dos Fluidos</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+A mecânica dos fluidos estuda o comportamento de líquidos e gases em repouso ou em movimento.
+</p>
+
+<p>
+(Conteúdo a ser adicionado.)
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org196f9f6" class="outline-2">
+<h2 id="org196f9f6"><span class="section-number-2">4.</span> Física II</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+(Conteúdo a ser adicionado.)
+</p>
+</div>
+</div>
+<div id="outline-container-orgf708bb3" class="outline-2">
+<h2 id="orgf708bb3"><span class="section-number-2">5.</span> Física III</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+(Conteúdo a ser adicionado.)
+</p>
+</div>
+</div>
+<div id="outline-container-org6e2832a" class="outline-2">
+<h2 id="org6e2832a"><span class="section-number-2">6.</span> Referências</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>HEWITT, Paul G. <b>Física Conceitual</b>. Bookman Editora, 2023.</li>
+<li>ALVARENGA, Beatriz; MÁXIMO, Antônio. <b>Física Ensino Médio</b>. São Paulo: Editora Scipione, 2006.</li>
+</ul>
+
+<div class="footer">
+<p>© 2025 IFAM Campus Eirunepé. Todos os direitos reservados.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2025</p>
+<p class="author">Author: Joilson Silva Porto</p>
+<p class="date">Created: 2025-03-17 seg 17:49</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
