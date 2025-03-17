@@ -27,16 +27,23 @@ Sugestões dos alunos serão sempre bem-vindas.
 Aqui estão algumas técnicas para estudar de forma mais eficiente.
 
 - **Método Feynman**
+
 Baseia-se no fato de que ensinar é uma das melhores formas de aprender.
-  - [[https://conexao.pucminas.br/blog/dicas/tecnica-feynman/#:~:text=A%20T%C3%A9cnica%20Feynman%20%C3%A9%20um,estivesse%20conversando%20com%20uma%20crian%C3%A7a.][Método Feynman de estudo - Blog PUC Minas]]
+
+🌐 [[https://conexao.pucminas.br/blog/dicas/tecnica-feynman/#:~:text=A%20T%C3%A9cnica%20Feynman%20%C3%A9%20um,estivesse%20conversando%20com%20uma%20crian%C3%A7a.][Método Feynman de estudo - Blog PUC Minas]]
 
 - **Repetição Espaçada**
-  - Baseada no conceito da Curva do Esquecimento.
-  - [[https://blog.duolingo.com/pt/repeticao-espacada-no-aprendizado/][Repetição espaçada no aprendizado - Blog Duolingo]]
+
+Baseada no conceito da Curva do Esquecimento.
+
+🌐 [[https://blog.duolingo.com/pt/repeticao-espacada-no-aprendizado/][Repetição espaçada no aprendizado - Blog Duolingo]]
 
 - **Técnica do Pomodoro**
-  - Nosso cérebro tem um limite de tempo de concentração e precisa de pequenos intervalos de descanso.
-  - [[https://brasilescola.uol.com.br/dicas-de-estudo/tecnica-pomodoro-que-e-e-como-funciona.htm][Técnica Pomodoro - Brasil Escola Uol]]
+
+Nosso cérebro tem um limite de tempo de concentração e precisa de
+pequenos intervalos de descanso.
+
+🌐 [[https://brasilescola.uol.com.br/dicas-de-estudo/tecnica-pomodoro-que-e-e-como-funciona.htm][Técnica Pomodoro - Brasil Escola Uol]]
 
 ** Grandezas e Unidades de Medida
 Aqui estão algumas grandezas físicas e suas unidades de medida:
@@ -50,7 +57,8 @@ Aqui estão algumas grandezas físicas e suas unidades de medida:
 | Tempo       | Hora, Segundo        | h, s              |
 
 ** Equações
-As equações na física são relações matemáticas entre grandezas. Considere os seguintes dados de uma substância:
+As equações na física são relações matemáticas entre
+grandezas. Considere os seguintes dados de uma substância hipotética:
 
 | Massa (g) | Volume (mL) | Densidade (g/mL) |
 |-----------+-------------+------------------|
