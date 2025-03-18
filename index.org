@@ -16,7 +16,7 @@
 #+HTML_HEAD: </style>
 
 * Introdução
-Nessa página serão resumidas as aulas de física dos Cursos Técnicos de Nível Médio em Informática, Administração e Agropecuária na Forma Integrada, do IFAM Campus Eirunepé; ministradas no ano de 2025.
+Nessa página serão resumidas as aulas de física dos Cursos Técnicos de Nível Médio em Informática, Administração e Agropecuária na Forma Integrada, do IFAM /Campus/ Eirunepé; ministradas no ano de 2025.
 
 O objetivo é construir um material de consulta aos estudantes ao longo do desenvolvimento das disciplinas. 
 
@@ -46,7 +46,13 @@ pequenos intervalos de descanso.
 🌐 [[https://brasilescola.uol.com.br/dicas-de-estudo/tecnica-pomodoro-que-e-e-como-funciona.htm][Técnica Pomodoro - Brasil Escola Uol]]
 
 ** Grandezas e Unidades de Medida
-Aqui estão algumas grandezas físicas e suas unidades de medida:
+
+As grandezas físicas são conceitos aos quais podemos atribuir valores
+numéricos, enquanto que as unidades de medida são padrões de medida
+para cada grandeza correspondente.
+
+
+Na tabela abaixo estão algumas grandezas físicas e suas unidades de medida:
 
 | Grandeza    | Unidade (Nome)       | Unidade (Símbolo) |
 |-------------+----------------------+-------------------|
@@ -84,11 +90,28 @@ Com dois valores conhecidos, podemos calcular o terceiro.
 ** Gráficos
 Gráficos são ferramentas visuais importantes para representar dados e relações entre grandezas físicas. Eles ajudam a identificar padrões e tendências.
 
+#+begin_quote
 (Conteúdo a ser adicionado.)
+#+end_quote
+
+Como exemplo, os dados abaixo, 
+| Massa (g) | Volume (mL) |
+|-----------+-------------|
+| 3,0       | 1,0         |
+| 6,0       | 2,0         |
+| 9,0       | 3,0         |
+| 12,0      | 4,0         |
+| 15,0      | 5,0         |
+
+Podem ser representados pela figura
+
+#+CAPTION: Gráfico que relaciona os valores de massa e volume.
+file:graphics/grafico1.png
 
 * Física I
 ** Mecânica
 A mecânica estuda o movimento dos corpos e as forças que atuam sobre eles.
+
 
 (Conteúdo a ser adicionado.)
 
@@ -108,5 +131,5 @@ A mecânica dos fluidos estuda o comportamento de líquidos e gases em repouso o
 - ALVARENGA, Beatriz; MÁXIMO, Antônio. *Física Ensino Médio*. São Paulo: Editora Scipione, 2006.
 
 #+HTML: <div class="footer">
-#+HTML: <p>© 2025 IFAM Campus Eirunepé. Todos os direitos reservados.</p>
+#+HTML: <p>© 2025 IFAM _Campus_ Eirunepé. Todos os direitos reservados.</p>
 #+HTML: </div>
