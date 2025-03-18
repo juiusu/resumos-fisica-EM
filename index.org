@@ -1,22 +1,57 @@
+#+OPTIONS: toc:1 num:nil  # Configura as opções de exportação: `toc:1` gera um índice, `num:nil` desativa a numeração de seções.
+
+#+LANGUAGE: pt_BR  # Define o idioma do documento como português brasileiro.
+
+#+BIND: org-export-dictionary
+#+BIND: ((pt_BR "Table of Contents" . "Sumário")
+#+BIND:  ("Figure" . "Figura")
+#+BIND:  ("Listing" . "Listagem")
+#+BIND:  ("Table" . "Tabela"))
+
+
+
 #+TITLE: Resumos das Aulas de Física
 #+AUTHOR: Joilson Silva Porto
 #+DATE: 2025
-#+OPTIONS: toc num:nil
-#+HTML_HEAD: <style>
-#+HTML_HEAD: body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px auto; max-width: 800px; padding: 20px; }
-#+HTML_HEAD: h1, h2, h3 { color: #2c3e50; }
-#+HTML_HEAD: a { color: #3498db; text-decoration: none; }
-#+HTML_HEAD: a:hover { text-decoration: underline; }
-#+HTML_HEAD: table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-#+HTML_HEAD: th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
-#+HTML_HEAD: th { background-color: #f4f4f4; }
-#+HTML_HEAD: ul, ol { margin: 10px 0; padding-left: 20px; }
-#+HTML_HEAD: .equation { text-align: center; margin: 20px 0; font-size: 1.2em; }
-#+HTML_HEAD: .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; font-size: 0.9em; color: #777; }
+
+
+#+HTML_HEAD: <style>  # Inicia a seção de estilo CSS no cabeçalho HTML.
+
+#+HTML_HEAD: body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px auto; max-width: 800px; padding: 20px; }  
+# Define o estilo do corpo do documento: fonte Arial, espaçamento entre linhas, margens e largura máxima.
+
+#+HTML_HEAD: h1, h2, h3 { color: #2c3e50; }  
+# Define a cor dos cabeçalhos (h1, h2, h3) como um tom de azul escuro.
+
+#+HTML_HEAD: a { color: #3498db; text-decoration: none; }  
+# Define a cor dos links como azul claro e remove o sublinhado padrão.
+
+#+HTML_HEAD: a:hover { text-decoration: underline; }  
+# Adiciona um sublinhado ao passar o mouse sobre os links.
+
+#+HTML_HEAD: table { width: 100%; border-collapse: collapse; margin: 20px 0; }  
+# Define o estilo das tabelas: largura total, bordas colapsadas e margem superior/inferior.
+
+#+HTML_HEAD: th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }  
+# Define o estilo das células da tabela: padding, bordas e alinhamento do texto à esquerda.
+
+#+HTML_HEAD: th { background-color: #f4f4f4; }  
+# Define um fundo cinza claro para as células de cabeçalho da tabela.
+
+#+HTML_HEAD: ul, ol { margin: 10px 0; padding-left: 20px; }  
+# Define margens e padding para listas não ordenadas (ul) e ordenadas (ol).
+
+#+HTML_HEAD: .equation { text-align: center; margin: 20px 0; font-size: 1.2em; }  
+# Define o estilo para elementos com a classe "equation": centralizado, com margem e fonte maior.
+
+#+HTML_HEAD: .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; font-size: 0.9em; color: #777; }  
+# Define o estilo para o rodapé: margem superior, borda no topo, texto centralizado e cor cinza.
+
 #+HTML_HEAD: </style>
+# Fecha a seção de estilo CSS.
 
 * Introdução
-Nessa página serão resumidas as aulas de física dos Cursos Técnicos de Nível Médio em Informática, Administração e Agropecuária na Forma Integrada, do IFAM /Campus/ Eirunepé; ministradas no ano de 2025.
+Nessa página serão resumidas as aulas de **física** dos Cursos Técnicos de Nível Médio em Informática, Administração e Agropecuária na Forma Integrada, do IFAM /Campus/ Eirunepé; ministradas no ano de 2025.
 
 O objetivo é construir um material de consulta aos estudantes ao longo do desenvolvimento das disciplinas. 
 
@@ -52,8 +87,9 @@ numéricos, enquanto que as unidades de medida são padrões de medida
 para cada grandeza correspondente.
 
 
-Na tabela abaixo estão algumas grandezas físicas e suas unidades de medida:
+Na tabela abaixo estão algumas grandezas físicas com correspondentes unidades de medida:
 
+#+CAPTION: Grandezas e unidades de medida.
 | Grandeza    | Unidade (Nome)       | Unidade (Símbolo) |
 |-------------+----------------------+-------------------|
 | Massa       | Quilograma, Grama    | kg, g             |
@@ -66,13 +102,16 @@ Na tabela abaixo estão algumas grandezas físicas e suas unidades de medida:
 As equações na física são relações matemáticas entre
 grandezas. Considere os seguintes dados de uma substância hipotética:
 
+#+CAPTION: Massa, volume e densidade
 | Massa (g) | Volume (mL) | Densidade (g/mL) |
 |-----------+-------------+------------------|
 | 3,0       | 1,0         | 3,0              |
 | 6,0       | 2,0         | 3,0              |
-| -         | 2,5         | 3,0              |
-| 5,0       | -           | 3,0              |
-| 15,0      | 3,0         | -                |
+| \( ? \)   | 2,5         | 3,0              |
+| 5,0       | \( ? \)     | 3,0              |
+| 15,0      | 3,0         | \( ? \)          |
+
+
 
 A densidade é calculada dividindo a massa pelo volume. Essa relação pode ser escrita como:
 
@@ -94,18 +133,20 @@ Gráficos são ferramentas visuais importantes para representar dados e relaçõ
 (Conteúdo a ser adicionado.)
 #+end_quote
 
-Como exemplo, os dados abaixo, 
-| Massa (g) | Volume (mL) |
-|-----------+-------------|
-| 3,0       | 1,0         |
-| 6,0       | 2,0         |
-| 9,0       | 3,0         |
-| 12,0      | 4,0         |
-| 15,0      | 5,0         |
+Como exemplo, os dados abaixo,
+
+#+CAPTION: Massa e volume de uma substância hipotética
+| Volume (mL) | Massa (g) |
+|-------------+-----------|
+| 1,0         | 3,0       |
+| 2,0         | 6,0       |
+| 3,0         | 9,0       |
+| 4,0         | 12,0      |
+| 5,0         | 15,0      |
 
 Podem ser representados pela figura
 
-#+CAPTION: Gráfico que relaciona os valores de massa e volume.
+#+CAPTION: Gráfico que relaciona os valores de massa e volume da tabela anterior.
 file:graphics/grafico1.png
 
 * Física I
@@ -124,7 +165,30 @@ A mecânica dos fluidos estuda o comportamento de líquidos e gases em repouso o
 (Conteúdo a ser adicionado.)
 
 * Física III
+
+** Eletrostática
+
+*** Estrutura da matéria
+
+- Átomos
+  - Prótons
+  - Néutrons
+  - Elétrons
+- Moléculas
+
+*** Conceitos iniciais
+
+- Condutores
+- Isolantes
+- Supercondutores
+- Semicondutores
+- Carga elétrica
+
 (Conteúdo a ser adicionado.)
+
+*** Força elétrica
+
+
 
 * Referências
 - HEWITT, Paul G. *Física Conceitual*. Bookman Editora, 2023.
