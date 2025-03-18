@@ -14,6 +14,7 @@
 #+AUTHOR: Joilson Silva Porto
 #+DATE: 2025
 
+#+HTML: <img src="ifam-logo.png" alt="Minha Imagem" width="20" /> Instituto Federal do Amazonas - Campus Eirunepé
 
 #+HTML_HEAD: <style>  # Inicia a seção de estilo CSS no cabeçalho HTML.
 
