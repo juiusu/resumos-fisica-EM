@@ -205,56 +205,327 @@ ul, ol { margin: 10px 0; padding-left: 20px; }
 .equation { text-align: center; margin: 20px 0; font-size: 1.2em; }
 .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; font-size: 0.9em; color: #777; }
 </style>
+<style>  # Inicia a seção de estilo CSS no cabeçalho HTML.
+body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px auto; max-width: 800px; padding: 20px; }
+h1, h2, h3 { color: #2c3e50; }
+a { color: #3498db; text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+th { background-color: #f4f4f4; }
+ul, ol { margin: 10px 0; padding-left: 20px; }
+.equation { text-align: center; margin: 20px 0; font-size: 1.2em; }
+.footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; font-size: 0.9em; color: #777; }
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="content" class="content">
 <h1 class="title">Resumos das Aulas de Física</h1>
-<div id="outline-container-orgd74d83c" class="outline-2">
-<h2 id="orgd74d83c">Introdução</h2>
-<div class="outline-text-2" id="text-orgd74d83c">
+<div id="outline-container-org956da05" class="outline-2">
+<h2 id="org956da05">Pré-física</h2>
+<div class="outline-text-2" id="text-org956da05">
+</div>
+<div id="outline-container-orgda5465f" class="outline-3">
+<h3 id="orgda5465f">Sugestões sobre como estudar</h3>
+<div class="outline-text-3" id="text-orgda5465f">
 <p>
-Nessa página serão resumidas as aulas de <b><b>física</b></b> dos Cursos Técnicos de Nível Médio em Informática, Administração e Agropecuária na Forma Integrada, do IFAM <i>Campus</i> Eirunepé; ministradas no ano de 2025.
+Aqui estão algumas técnicas para estudar de forma mais eficiente.
 </p>
 
-<p>
-O objetivo é construir um material de consulta aos estudantes ao longo do desenvolvimento das disciplinas. 
-</p>
-
-<p>
-Sugestões dos alunos serão sempre bem-vindas.
-</p>
-</div>
-</div>
-<div id="outline-container-org4c38414" class="outline-2">
-<h2 id="org4c38414"><a href="prefisica.html">Pré-física</a></h2>
-</div>
-
-<div id="outline-container-orgbe02d30" class="outline-2">
-<h2 id="orgbe02d30"><a href="fisica-1.html">Física I</a></h2>
-</div>
-
-<div id="outline-container-org33fbacf" class="outline-2">
-<h2 id="org33fbacf"><a href="fisica-2.html">Física II</a></h2>
-</div>
-
-<div id="outline-container-org43c9b92" class="outline-2">
-<h2 id="org43c9b92"><a href="fisica-3.html">Física III</a></h2>
-</div>
-
-
-<div id="outline-container-orgee3d182" class="outline-2">
-<h2 id="orgee3d182">Referências</h2>
-<div class="outline-text-2" id="text-orgee3d182">
 <ul class="org-ul">
-<li>HEWITT, Paul G. <b>Física Conceitual</b>. Bookman Editora, 2023.</li>
-<li>ALVARENGA, Beatriz; MÁXIMO, Antônio. <b>Física Ensino Médio</b>. São Paulo: Editora Scipione, 2006.</li>
+<li><b><b>Método Feynman</b></b></li>
 </ul>
+
+<p>
+Baseia-se no fato de que ensinar é uma das melhores formas de aprender.
+</p>
+
+<p>
+🌐 <a href="https://conexao.pucminas.br/blog/dicas/tecnica-feynman/#:~:text=A%20T%C3%A9cnica%20Feynman%20%C3%A9%20um,estivesse%20conversando%20com%20uma%20crian%C3%A7a.">Método Feynman de estudo - Blog PUC Minas</a>
+</p>
+
+<ul class="org-ul">
+<li><b><b>Repetição Espaçada</b></b></li>
+</ul>
+
+<p>
+Baseada no conceito da Curva do Esquecimento.
+</p>
+
+<p>
+🌐 <a href="https://blog.duolingo.com/pt/repeticao-espacada-no-aprendizado/">Repetição espaçada no aprendizado - Blog Duolingo</a>
+</p>
+
+<ul class="org-ul">
+<li><b><b>Técnica do Pomodoro</b></b></li>
+</ul>
+
+<p>
+Nosso cérebro tem um limite de tempo de concentração e precisa de
+pequenos intervalos de descanso.
+</p>
+
+<p>
+🌐 <a href="https://brasilescola.uol.com.br/dicas-de-estudo/tecnica-pomodoro-que-e-e-como-funciona.htm">Técnica Pomodoro - Brasil Escola Uol</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgab1304a" class="outline-3">
+<h3 id="orgab1304a">Grandezas e Unidades de Medida</h3>
+<div class="outline-text-3" id="text-orgab1304a">
+<p>
+As grandezas físicas são conceitos aos quais podemos atribuir valores
+numéricos, enquanto que as unidades de medida são padrões de medida
+para cada grandeza correspondente.
+</p>
+
+
+<p>
+Na tabela abaixo estão algumas grandezas físicas com correspondentes unidades de medida:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 1:</span> Grandezas e unidades de medida.</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Grandeza</th>
+<th scope="col" class="org-left">Unidade (Nome)</th>
+<th scope="col" class="org-left">Unidade (Símbolo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Massa</td>
+<td class="org-left">Quilograma, Grama</td>
+<td class="org-left">kg, g</td>
+</tr>
+
+<tr>
+<td class="org-left">Volume</td>
+<td class="org-left">Litro, Mili-litro</td>
+<td class="org-left">L, mL</td>
+</tr>
+
+<tr>
+<td class="org-left">Densidade</td>
+<td class="org-left">Grama por mili-litro</td>
+<td class="org-left">g/mL</td>
+</tr>
+
+<tr>
+<td class="org-left">Comprimento</td>
+<td class="org-left">Metro, Centímetro</td>
+<td class="org-left">m, cm</td>
+</tr>
+
+<tr>
+<td class="org-left">Tempo</td>
+<td class="org-left">Hora, Segundo</td>
+<td class="org-left">h, s</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org83278dd" class="outline-3">
+<h3 id="org83278dd">Equações</h3>
+<div class="outline-text-3" id="text-org83278dd">
+<p>
+As equações na física são relações matemáticas entre
+grandezas. Considere os seguintes dados de uma substância hipotética:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 2:</span> Massa, volume e densidade</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Massa (g)</th>
+<th scope="col" class="org-left">Volume (mL)</th>
+<th scope="col" class="org-left">Densidade (g/mL)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">3,0</td>
+<td class="org-left">1,0</td>
+<td class="org-left">3,0</td>
+</tr>
+
+<tr>
+<td class="org-left">6,0</td>
+<td class="org-left">2,0</td>
+<td class="org-left">3,0</td>
+</tr>
+
+<tr>
+<td class="org-left">\( ? \)</td>
+<td class="org-left">2,5</td>
+<td class="org-left">3,0</td>
+</tr>
+
+<tr>
+<td class="org-left">5,0</td>
+<td class="org-left">\( ? \)</td>
+<td class="org-left">3,0</td>
+</tr>
+
+<tr>
+<td class="org-left">15,0</td>
+<td class="org-left">3,0</td>
+<td class="org-left">\( ? \)</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<p>
+A densidade é calculada dividindo a massa pelo volume. Essa relação pode ser escrita como:
+</p>
+
+\begin{equation}
+d = \frac{m}{V}
+\end{equation}
+
+<p>
+Onde:
+</p>
+<ul class="org-ul">
+<li>\( m \) = massa</li>
+<li>\( V \) = volume</li>
+<li>\( d \) = densidade</li>
+</ul>
+
+<p>
+Com dois valores conhecidos, podemos calcular o terceiro.
+</p>
+</div>
+</div>
+<div id="outline-container-org9889c43" class="outline-3">
+<h3 id="org9889c43">Gráficos</h3>
+<div class="outline-text-3" id="text-org9889c43">
+<p>
+Gráficos são ferramentas visuais importantes para representar dados e relações entre grandezas físicas. Eles ajudam a identificar padrões e tendências.
+</p>
+
+<blockquote>
+<p>
+(Conteúdo a ser adicionado.)
+</p>
+</blockquote>
+
+<p>
+Como exemplo, os dados abaixo,
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 3:</span> Massa e volume de uma substância hipotética</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Volume (mL)</th>
+<th scope="col" class="org-left">Massa (g)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">1,0</td>
+<td class="org-left">3,0</td>
+</tr>
+
+<tr>
+<td class="org-left">2,0</td>
+<td class="org-left">6,0</td>
+</tr>
+
+<tr>
+<td class="org-left">3,0</td>
+<td class="org-left">9,0</td>
+</tr>
+
+<tr>
+<td class="org-left">4,0</td>
+<td class="org-left">12,0</td>
+</tr>
+
+<tr>
+<td class="org-left">5,0</td>
+<td class="org-left">15,0</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Podem ser representados pela figura
+</p>
+
+
+<div id="org9d59ddd" class="figure">
+<p><img src="graphics/grafico1.png" alt="grafico1.png" />
+</p>
+<p><span class="figure-number">Figure 1: </span>Gráfico que relaciona os valores de massa e volume da tabela anterior.</p>
+</div>
+
 
 
 <div class="footer">
 <img src="ifam-logo.png" alt="Minha Imagem" width="20" /> Instituto Federal do Amazonas - IFAM - Campus Eirunepé
 
 <p>© 2025 IFAM - Campus Eirunepé. Todos os direitos reservados.</p>
+</div>
 </div>
 </div>
 </div>
